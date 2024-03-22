@@ -14,6 +14,7 @@ public class Test_Case_login {
 		driver.get("https://adactinhotelapp.com");
 		Login_page_1 lpo=PageFactory.initElements(driver,Login_page_1.class);
 		lpo.entername("vasvupeg","vasu1234");
+		System.out.println("");
 		
 				
 
